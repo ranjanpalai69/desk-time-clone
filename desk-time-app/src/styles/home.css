@@ -1,0 +1,173 @@
+
+.home{
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  .nav-bar{
+      z-index: 100;
+      position: sticky;
+      top: 0;
+       width: 100%;
+    border-top: 4px solid #4ea819;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 20px;
+    height: auto;
+    box-shadow: 0 0 12px rgb(0 0 0 / 12%);
+
+  }
+  
+  .logo{
+    width: auto;
+  }
+  
+  
+   .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    padding: 15px;
+  }
+  
+  .nav-links a{
+    text-decoration: none;
+    color: #475056;
+      font-size: 1.1rem;
+      font-weight:bold;
+      display: inline-block;
+      position: relative;
+  } 
+  
+  .nav-links a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2.4px;
+    left: 50%;
+    position: absolute;
+    background: #4ea819;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .nav-links a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  /* @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  } */
+  
+  
+  .buttons{
+   margin-left: -40px;
+  }
+  .buttons button{
+    padding: 10px 13px;
+    border-radius: 3px;
+   margin-right: 15px; 
+   border: 0.5px solid rgb(89, 88, 90);
+   font-weight: 300;
+  
+  }
+  .signup-btn{
+    background-color: #4ea819;
+    color: whitesmoke;
+  }
+  .login-btn,.signup-btn:hover{
+    cursor: pointer;
+  }
+  
+  .login-btn:hover{
+    background-color: #afb4ba;
+  }
+  
+  .signup-btn:hover{
+    background-color: #457c24;
+    
+  }
+
+ 
+  .free-trial{
+    width: 100%;
+  box-sizing: border-box;
+   width:85%;
+   height: auto;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   
+  
+  }
+  .free-trial>div{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+  }
+  .trial-info{
+    padding: 30px 15px;
+  }
+
+  .trial-info h1{
+    line-height: 3.375rem;
+    font-size: 2.625rem;
+   color:#333c43 ; 
+  }
+  .trial-info p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin:15px 0px;
+    color: #475056;
+  }
+
+  .trial-info .terms{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin:15px 0px;
+  }
+
+  .trial-info span{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .inp-trial{
+    padding: 10px ;
+    display: flex;
+  }
+  .inp-trial *{
+    padding: 18px 30px;
+    width:40%;
+    font-size: 17px;
+    margin-right: 12px;
+    border-radius: 4px;
+  }
+
+
+  .video-comp iframe{
+ 
+    width: 100%;
+    height: 330px;
+  }
+  
+  .parteners{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+ 

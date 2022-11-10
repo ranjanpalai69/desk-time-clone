@@ -1,0 +1,54 @@
+
+
+.tracking-info{
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    height: auto;
+}
+
+.tracking-info>div{
+    width: 50%;
+}
+
+.benefits-info{
+    padding: 25px 15px;
+} 
+
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+}
+.benefit{
+    padding: 15px 0px;
+}
+
+.line{
+    line-height: 50px;
+}
+
+.benefit .icon{
+    margin-right: 10px;
+    font-size:20px ;
+    color: #4ea819;
+}
+
+.benefit p{
+    margin-left: 15px;
+    line-height: 28px;
+}
+
+.h3{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.tracking-info .image{
+    text-align: center;
+}
