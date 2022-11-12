@@ -1,6 +1,6 @@
 
 .features-container{
-    width: 85%;
+    width: 100%;
     height:auto;
     margin: auto;
 }
@@ -19,12 +19,21 @@
 }
 
 .inside-container{
+    width: 90%;
+    margin: auto;
     display: flex;
     gap: 18px;
+    flex-wrap: wrap;
 }
 
-.inside-container .image-comp{
+.inside-container>div{
+    width: 50%;
+    height: 100%;
+}
+
+.inside-container img{
   margin: auto;
+
 }
 
 
@@ -33,7 +42,7 @@
     width: 90%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,auto);
     grid-template-rows: repeat(auto,1fr);
     align-items: center;
     justify-content: first baseline;

@@ -1,5 +1,5 @@
 import { BsBook, BsCalendar2, BsClock, BsClockHistory, BsCode, BsEyeSlash, BsWifi1 } from "react-icons/bs";
-import { FaCalculator, FaFileInvoice, FaMobile } from "react-icons/fa";
+import { FaAndroid, FaApple, FaCalculator, FaChrome, FaFileInvoice, FaFirefox, FaLinux, FaMobile, FaOpera, FaWindows } from "react-icons/fa";
 import { HiOutlineDocumentText, HiStatusOffline } from "react-icons/hi";
 import {BsPersonPlusFill,BsFillFileEarmarkArrowDownFill} from "react-icons/bs"
 export const coolFeatures=[
@@ -79,4 +79,31 @@ export const coolFeatures=[
     
 
 
+]
+
+
+
+export const marketing_data=[
+    {
+        img_url:"https://desktime.com/static/web/new-homepage/desktop/desktop.webp",
+        heading:"DeskTime for desktops",
+        icons:[<FaLinux/>,<FaApple/>,<FaWindows/>],
+        sub_title:"Requires download and installation",
+        titles:[" Fully automated time tracker","App, URL & Document title tracking","Project and task tracking","Screenshots","Idle and Private time"]
+      }
+      ,
+      {
+        img_url:"https://desktime.com/static/web/new-homepage/mobile/mobile.webp",
+        heading:"DeskTime for mobile phones",
+        icons:[<FaApple/>,<FaAndroid/>],
+        sub_title:"Requires download and installation",
+        titles:["Manual time tracker","Workday overview","Project and task tracking"]
+      },
+      {
+        img_url:"https://desktime.com/static/web/new-homepage/webtimer/webtimer.webp",
+        heading:"Manual time tracking",
+        icons:[<FaChrome/>,<FaFirefox/>,<FaOpera/>],
+        sub_title:"No software installation necessary",
+        titles:["Manual time tracker","Workday overview","Project and task tracking"]
+      }
 ]

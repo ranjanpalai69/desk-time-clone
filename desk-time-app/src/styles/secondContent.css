@@ -2,17 +2,19 @@
 
 .tracking-info{
     width: 85%;
-    height: 500px;
+    height: auto;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 25px;
     height: auto;
+    flex-wrap: wrap-reverse;
 }
 
 .tracking-info>div{
     width: 50%;
+  
 }
 
 .benefits-info{
@@ -50,5 +52,8 @@
 }
 
 .tracking-info .image{
+    /* width: 100%; */
+    width: auto;
+    height: auto;
     text-align: center;
 }
