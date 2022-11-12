@@ -1,0 +1,65 @@
+ 
+
+.carousel-comp{
+    width:100%;
+   
+    margin: auto;
+    height: auto;
+    background-color: #f5f5f5e1;
+    padding: 35px 25px;
+}
+
+.heading{
+    color: #3d3d3d;
+    font-size: 1.25rem;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    line-height: 55px;
+    margin-bottom: 35px;
+}
+
+
+
+
+.slider-card{
+    width: 100%;
+    border-radius: 5px;
+    height: 500px;
+    padding: 20px 35px 60px 20px;
+    margin-right: 50px;
+}
+
+.slider-card .details{
+    display: flex;
+    align-items: center;
+   
+}
+.details div{
+    width: 40%;
+   
+}
+
+.details img{
+    width: 80%;
+    border-radius: 50%;
+}
+.slider-card .details>div+div{
+    line-height: 28px ;
+   width: 60%;
+  
+   
+}
+
+.slider-card .details>div+div h4{
+    font-weight: lighter;
+    font-size: large;
+    color: #454545;
+}
+
+.msg{
+   
+    margin: auto;
+    padding: 25px 0px;
+    line-height: 25px;
+}

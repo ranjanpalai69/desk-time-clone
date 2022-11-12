@@ -1,0 +1,66 @@
+
+
+.marketing-comp{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.marketing-comp .prod-comp{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.marketing{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    
+}
+.marketing>div{
+    height:650px;
+    width: 30%;
+    box-sizing: border-box;
+    
+}
+
+.marketing>div img{
+    width: 100%;
+    height: auto;
+}
+
+.icons,.ind-title{
+    display: flex;
+  margin: 13px 0px;
+}
+
+.icons .icon{
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(83, 83, 83);
+}
+
+.marketing-card h2{
+    margin: 10px 0px;
+    color: rgb(53, 53, 53);
+}
+
+.sub-title{
+    font-size: large;
+    color: rgb(91, 91, 91);
+}
+
+.ind-title div{
+    color: rgb(18, 147, 18);
+    margin-right: 10px;
+}
+
+.marketing-card .btn{
+    font-size: small;
+    font-weight: bold;
+}
