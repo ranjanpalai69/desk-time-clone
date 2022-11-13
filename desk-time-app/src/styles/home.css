@@ -14,7 +14,7 @@
     background-color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 25px 20px;
     height: auto;
     box-shadow: 0 0 12px rgb(0 0 0 / 12%);
@@ -41,6 +41,7 @@
       font-weight:bold;
       display: inline-block;
       position: relative;
+      margin: 0px 10px;
   } 
   
   .nav-links a:after {    
@@ -55,10 +56,24 @@
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
+
+  .menu-btn{
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: #333c43;
+  }
   .nav-links a:hover:after { 
     width: 100%; 
     left: 0; 
   }
+
+  /* .menu-list{
+    width: 100%;
+    border: 1px solid red;
+    height: 250px;
+    z-index: 1150;
+  } */
   /* @media screen and (max-height: 300px) {
       ul {
           margin-top: 40px;

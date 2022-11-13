@@ -1,0 +1,40 @@
+
+
+.footer{
+    background-color: #ebecec;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-logo,.icons-and-inp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:7px 0px;
+}
+
+
+.social-icons{
+    display: flex;
+    padding: 0px 30px;
+}
+
+.social-icons .icon{
+    font-size: 30px;
+    color: #525252;
+    margin-left: 15px;
+}
+
+.btn-inp>*{
+    padding: 15px ;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-inp button{
+    background-color: #4ea819;
+    color: white;
+}
+

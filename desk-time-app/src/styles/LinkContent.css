@@ -1,0 +1,34 @@
+.link-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height:auto;
+    flex-wrap: wrap;
+    padding: 45px 0px;
+}
+
+.ind-link-cont{
+    height: 450px;
+   
+}
+
+.ind-link-cont p{
+    margin: 15px 0px;
+    
+}
+
+.ind-link-cont p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ind-link-cont p:first-child{
+    font-size:large;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.ind-link-cont p:first-child:hover{
+    text-decoration: none;
+}
+

@@ -1,5 +1,5 @@
 import { BsBook, BsCalendar2, BsClock, BsClockHistory, BsCode, BsEyeSlash, BsWifi1 } from "react-icons/bs";
-import { FaAndroid, FaApple, FaCalculator, FaChrome, FaFileInvoice, FaFirefox, FaLinux, FaMobile, FaOpera, FaWindows } from "react-icons/fa";
+import { FaAndroid, FaApple, FaCalculator, FaChrome, FaFacebook, FaFileInvoice, FaFirefox, FaLinkedin, FaLinux, FaMobile, FaOpera, FaSkype, FaTwitter, FaWindows,  FaYoutube } from "react-icons/fa";
 import { HiOutlineDocumentText, HiStatusOffline } from "react-icons/hi";
 import {BsPersonPlusFill,BsFillFileEarmarkArrowDownFill} from "react-icons/bs"
 export const coolFeatures=[
@@ -106,4 +106,9 @@ export const marketing_data=[
         sub_title:"No software installation necessary",
         titles:["Manual time tracker","Workday overview","Project and task tracking"]
       }
+]
+
+
+export const social_icons=[
+         <FaFacebook/> , <FaTwitter/> ,<FaYoutube/>, <FaSkype/>, <FaLinkedin/>
 ]
