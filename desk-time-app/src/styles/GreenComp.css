@@ -1,0 +1,30 @@
+
+
+.green-comp{
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color:#4ea819 ;
+    text-align: center;
+}
+
+.green-comp .ins-green{
+    width: 80%;
+    margin: auto;
+   padding: 55px 20px;
+    
+}
+
+.green-comp .ins-green .inp-trial{
+    width: 55%;
+    margin: 20px auto;
+}
+
+.green-comp  .terms{
+    font-size: larger;
+}
+
+.green-comp h1{
+    color: white;
+    font-size: 35px;
+}

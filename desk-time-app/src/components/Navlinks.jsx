@@ -6,7 +6,7 @@ const Navlinks = () => {
        <a href="#">Demo</a>
        <a href="#">Features</a>
        <a href="#">Pricing</a>
-       <a href="#">About Us</a>
+       <a href="#">About</a>
        <a href="#">Blog</a>
     </div>
   )
